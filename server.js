@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static("public"));
 app.use(bodyParser.json());
 
-const YT_STREAM_KEY = process.env.YT_STREAM_KEY;
+const YT_STREAM_KEY = "fbqz-xzx2-zpvm-7fbp-74j3";
 const YT_URL = `rtmp://a.rtmp.youtube.com/live2/${YT_STREAM_KEY}`;
 
 let playlist = [];
