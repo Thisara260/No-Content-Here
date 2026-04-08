@@ -4,7 +4,7 @@ async function loadPlaylist() {
 
   const container = document.getElementById("mediaList");
   const current = document.getElementById("currentMedia");
-  current.textContent = data.current;
+  current.textContent = data.current || "No media";
 
   container.innerHTML = "";
   data.playlist.forEach(media => {
