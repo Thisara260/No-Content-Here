@@ -1,6 +1,6 @@
 #!/bin/bash
 
-STREAM_KEY=$YT_STREAM_KEY
+STREAM_KEY="fbqz-xzx2-zpvm-7fbp-74j3"
 
 # install fonts (safe)
 apt-get update -y
