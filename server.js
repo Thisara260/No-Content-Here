@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const app = express();
 const PORT = process.env.PORT || 8080;
 const YT_STREAM_KEY = process.env.YT_STREAM_KEY;
-const YT_URL = `rtmp://a.rtmp.youtube.com/live2/${YT_STREAM_KEY}`;
+const YT_URL = `rtmp://a.rtmp.youtube.com/live2/fbqz-xzx2-zpvm-7fbp-74j3`;
 
 let playlist = [];
 let currentIndex = 0;
